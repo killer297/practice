@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design the grid</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap');
+
+        .container {
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-areas: "nav nav"
+                "side ankur"
+                "article anjali";
+            text-align: center;
+        }
+
+        .item {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* display: inline; */
+            /* border: 2px solid whitesmoke; */
+            height: 200px;
+            /* width: 55px; */
+        }
+
+        .item1 {
+            grid-area: nav;
+            /* background-color: antiquewhite; */
+        }
+
+        .item2 {
+            grid-area: side;
+            /* background-color: aqua; */
+        }
+
+        .item3 {
+            grid-area: ankur;
+            /* background-color: aquamarine; */
+        }
+
+        .item4 {
+            grid-area: article;
+            /* background-color: rgb(189, 239, 239); */
+        }
+
+        .item5 {
+            grid-area: anjali;
+            /* background-color: bisque; */
+        }
+
+        img {
+            height: 30px;
+            width: 30px;
+        }
+
+        .trial {
+            background-color: rgb(249, 207, 58);
+            border-radius: 10px;
+            margin: 12px;
+            padding: 12px;
+        }
+
+        .more {
+            background-color: whitesmoke;
+            border-radius: 10px;
+            margin: 12px;
+            padding: 12px;
+        }
+        .text{
+            margin: 10px;
+            padding: 10px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 24px;
+            /* text-size-adjust: 25px; */
+            text-align: center;
+        }
+        /* .item p{
+            margin: 5px;
+            padding: 5px;
+        } */
+         /* .line{
+            display: flex;
+            
+         } */
+          .new{
+            font-size: 35px;
+            /* font-style: bold; */
+            /* font-weight: 100;
+            text-decoration: solid;
+            text-size-adjust: ; */
+          }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="text">
+            <h1>
+                UltraEdit Tools & Free Trials
+            </h1>
+        </div>
+        <div class="container">
+
+            <div class="item item1">
+                <span class="line">
+                    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon.png" alt="">
+                </span>
+                   <span class="line new">
+                       Ultra Edit
+                    </span>
+                <p>Secure and versatile text, code, and hex editor.
+                    Exceptional in editing large files.</p>
+                    
+
+                        <span class="trial">Download free trial </span>
+                <span class="more">Learn more</span>
+            </div>
+
+            <div class="item item2">
+                <span class="line">
+                    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UC_logo_icon_black_bkg_256x256-1.png"
+                    alt="">
+                </span>
+                <span class="line new">
+                   Ultra Compare
+                </span>
+                <p>Text, file, folder compare</p>
+                <span class="trial">Download free trial </span>
+                <span class="more">Learn more</span>
+            </div>
+
+            <div class="item item3">
+                <span class="line">
+                    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UES_logo_icon_black_bkg_256x256-1.png"
+                    alt="">
+                </span>
+                <span class="line new">
+                    UEStudio
+                </span> 
+                <p>The ultimate Git toolset</p>
+                <span class="trial">Download free trial </span>
+                <span class="more">Learn more</span>
+            </div>
+
+            <div class="item item4">
+                <span class="line">
+                    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UF_logo_icon_black_bkg_256x256-1.png"
+                    alt="">
+                </span>
+                <span class="line new">
+                    Ultra Finder
+                </span>
+                <p>Powerful file/folder search</p>
+                <span class="trial">Download free trial </span>
+                <span class="more">Learn more</span>
+            </div>
+
+            <div class="item item5">
+                <span class="line">
+                    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UFTP_logo_icon_black_bkg_256x256-1-Copy.png"
+                    alt="">
+                </span>
+                <span class="line new">
+                    Ultra FTP
+                </span>
+                <p>Powerful FTP client</p>
+                <span class="trial">Download free trial </span>
+                <span class="more">Learn more</span>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
